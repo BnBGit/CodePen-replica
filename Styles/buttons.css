@@ -1,0 +1,25 @@
+.sign-learn-buttons > .sign-up > .sign {
+    background-color: #50c677;
+    color: black;
+    font-weight: 400;
+    font-size: 1.25em;
+    padding: 10px 25px;
+    border: 1px solid black;
+    border-radius: 2px;
+    outline: none;
+    transition: all 0.3s;
+    margin-right: 10px;
+}
+
+.sign-learn-buttons > .learn-more > .learn {
+    background-color: black;
+    color: white;
+    font-weight: 500;
+    font-size: 1.15em;
+    padding: 10px 25px;
+    border: 1px solid black;
+    border-radius: 2px;
+    outline: none;
+    transition: all 0.3s;
+}
+

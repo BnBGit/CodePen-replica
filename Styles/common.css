@@ -1,0 +1,202 @@
+.header  {
+  height: 80px;
+  background-color: #000000;
+  width: 101.3%;
+  padding: 4px 3px 6px 0px;
+  margin: -16px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+  
+.header > .left-column > .banner-image img{
+height: 34px; 
+margin-left: -50px;
+}
+
+.header > .center-column > .links-wrapper > .Explore a {
+  text-decoration: none;
+  Color: yellow;
+}
+
+.header > .center-column > .links-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-left: -30%;
+}
+
+.header > .center-column > .links-wrapper > .Explore-Pens {
+  align-items: center;
+  margin-top: -6.5px;
+  margin-left: 40px;
+  margin-right: -19px;
+  font-size: 1em;
+}
+
+.header > .center-column > .links-wrapper > .Explore-Pens a {
+  Text-Decoration: none;
+}
+
+.header > .center-column > .links-wrapper > .Explore-Pens > .nav-link-Pens a {
+  Text-Decoration: none;
+  color: white;
+}
+
+.header > .center-column > .links-wrapper > .Explore-Pens > .nav-link-Pens{
+  margin-top: 3px;
+}
+
+.header > .center-column > .links-wrapper > .Explore-Pens > .Explore a {
+  Text-Decoration: none;
+  color: yellow;
+}
+
+.header > .center-column > .links-wrapper > .nav-link {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 16px;
+  margin-left: 10px;
+}
+
+.header > .center-column > .links-wrapper > .nav-link a {
+  text-decoration: none;
+  color: white;
+}
+
+.header > .center-column > .links-wrapper > .spark-dropdown  {
+  display: flex;
+  align-items: flex-end;
+  margin-left: -9px;
+}
+
+.header > .center-column > .links-wrapper > .spark-dropdown a {
+  margin-left: 25px;
+  margin-top: 5px;
+  text-decoration: none;
+  color: grey;
+  width: 100%;
+}
+
+.header > .right-column {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 25%;
+  color:white;
+  margin-left: 60px;
+  margin-right: -200px;
+}
+
+.header > .right-column > .create-dropdown {
+  display: flex;
+  height: 45px;
+  width: 25%;
+  background-color: #32343e;
+  justify-content: center;
+  align-items: center;
+  margin-top: -7px;
+}
+
+.header > .right-column > .mag {
+  color: #52545f;
+  font-size: 1.5em;
+}
+
+.header > .right-column > .login-button {
+  display: flex;
+  height: 45px;
+  width: 18%;
+  background-color: #32343e;
+  justify-content: center;
+  align-items: center;
+  margin-top: -7px;
+}
+
+.header > .right-column > .sign-up {
+  display: flex;
+  height: 45px;
+  width: 20%;
+  background-color: #32343e;
+  justify-content: center;
+  align-items: center;
+  margin-top: -7px;
+  padding-right: 15px;
+}
+
+.center-page-contents {
+  display: flex;
+  background-image: linear-gradient(to right, #272a2e, #2a2e33, #2e3239, #32353f, #373944, #353741, #32343e, #30323b, #26292f, #1d2024, #151719, #3f464c);
+  height: 640px;
+  width: 100%;
+  margin-left: -8px;
+  padding-left: 4px;
+  padding-right: 13px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: inset -100px -32px 179px -10px;
+  border-top: 1px solid #1b1c1f;
+}
+
+.center-page-contents > .center-left-column {
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+  align-items: center;
+}
+
+.center-page-contents > .center-left-column > .left-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 500px;
+  margin-left: -52px;
+}
+
+.center-page-contents > .center-left-column > .left-text > .first {
+  color:white;
+  /* font-size: 1.5em; */
+}
+
+.center-page-contents > .center-left-column > .left-text > .second { 
+color: rgb(182, 182, 182);
+}
+
+.center-page-contents > .center-left-column > .sign-learn-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 85%;
+}
+
+.center-right-page {
+  display: flex;
+  flex-direction:column;
+  width: 55%;
+  margin-right: -12px;
+  margin-top: 90px;
+  justify-content: center;
+}
+
+.center-right-page > .text-above-img > .right-side-phrase-container {
+  display: flex;
+  flex-direction: row;
+  margin-left: 15px;
+  margin-bottom: 6px;
+  gap: 6px;
+}
+
+.center-right-page > .text-above-img {
+  margin-left: 5%;
+}
+
+.center-page-contents > .center-right-page > .text-above-img > .right-side-phrase-container > .block-example > .block {
+  color: white;
+}
+
+.center-page-contents > .center-right-page> .image > #screenshot {
+  height: 500px;
+  float: right;
+}
+

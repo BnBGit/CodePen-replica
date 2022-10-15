@@ -1,0 +1,39 @@
+.footer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    color: white;
+    background-color: #32353c;
+    border: 2px solid #505052;
+    height: 50px;
+    justify-content: space-around;
+    align-items: center;
+    margin: -9px;
+}
+
+.footer > .code-teams {
+    border-right: 2px solid #505052;
+    line-height: 3.1;
+    width: 15%;
+    padding-left: 5%;
+}
+
+.footer > .code-education {
+    width: 15%;
+    border-right: 2px solid #505052;
+    line-height: 3.1;
+}
+
+.footer > .code-privacy {
+    border-right: 2px solid #505052;
+    line-height: 3.1;
+    width: 15%;
+}
+
+.footer > .code-writing {
+    width: 15%;
+}
+
