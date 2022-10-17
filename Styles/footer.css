@@ -1,39 +1,70 @@
-.footer {
+.bottom-nav-bar {
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-between;
+    width: 101.2%;
     list-style: none;
-    margin: 0;
     padding: 0;
     color: white;
     background-color: #32353c;
     border: 2px solid #505052;
-    height: 50px;
+    height: 58px;
     justify-content: space-around;
     align-items: center;
     margin: -9px;
+    font-family: "Lato"
 }
 
-.footer > .code-teams {
+.bottom-nav-bar > .code-teams {
     border-right: 2px solid #505052;
     line-height: 3.1;
     width: 15%;
-    padding-left: 5%;
+    padding-left: 4%;
 }
 
-.footer > .code-education {
+.bottom-nav-bar > .code-education {
     width: 15%;
     border-right: 2px solid #505052;
     line-height: 3.1;
+    padding-right: 3%;
 }
 
-.footer > .code-privacy {
+.bottom-nav-bar > .code-privacy {
     border-right: 2px solid #505052;
     line-height: 3.1;
     width: 15%;
+    padding-right: 4px;
 }
 
-.footer > .code-writing {
+.bottom-nav-bar > .code-writing {
     width: 15%;
+    margin-right:-3%;
 }
 
+.bottom-nav-bar > .code-teams > .big {
+    font-weight: 700;
+    Font-size: 1.2em;
+}
+
+.bottom-nav-bar > .code-education > .big {
+    font-weight: 700;
+    Font-size: 1.2em;
+}
+
+.bottom-nav-bar > .code-privacy > .big {
+    font-weight: 700;
+    Font-size: 1.2em;
+}
+
+.bottom-nav-bar > .code-writing > .big {
+    font-weight: 700;
+    Font-size: 1.2em;
+}
+
+.footer {
+    background-color: #151719;
+    height: 100px;
+    width: 101.4%;
+    margin-top: 9px;
+    margin-left: -8px;
+    margin-bottom: -8px;
+}
